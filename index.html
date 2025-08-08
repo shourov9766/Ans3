@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>From</title>
+</head>
+
+<body>
+    <div class="forms grid items-center h-[100vh]">
+        <div class="form container mx-auto p-4 w-[800px] bg-[rgb(178,178,252)]">
+            <form action="" class="bg-white p-6 rounded text-[rgb(65,65,152)] flex flex-col gap-6">
+                <h1 class="font-bold text-3xl text-center mb-8">Restaurant Reservation Form</h1>
+                <div class="username ">
+                    <label for="name" >Name</label>
+                    <div class="grid grid-cols-2 gap-3 mt-2">
+                        <input type="text" placeholder="   First" class="border-1 rounded min-h-[40px] border-[rgb(178,178,252)]">
+                        <input type="text" placeholder="   last" class="border-1 rounded min-h-[40px] border-[rgb(178,178,252)]">
+                    </div>
+                </div>
+                <div class="emailPhone grid grid-cols-2 gap-3">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" class="border-1 rounded min-h-[40px] w-full mt-2 border-[rgb(178,178,252)]">
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="number" class="border-1 rounded min-h-[40px] w-full mt-2 border-[rgb(178,178,252)]">
+                    </div>
+                </div>
+                <div class="dateTime grid grid-cols-2 gap-3">
+                    <div>
+                        <label for="date" >Reservation Date</label>
+                        <input type="date" placeholder="MM/DD/YYYY" class="border-1 rounded min-h-[40px] w-full mt-2 border-[rgb(178,178,252)]">
+                    </div>
+                    <div>
+                        <label for="time" >Reservation Time</label>
+                        <input type="time" placeholder="HH:MM:AM" class="border-1 rounded min-h-[40px] w-full mt-2 border-[rgb(178,178,252)]">
+                    </div>
+                </div>
+                <div>
+                    <label for="" >How many person will you be with?</label>
+                    <input type="text" class="border-1 rounded w-full min-h-[40px] mt-2 border-[rgb(178,178,252)]">
+                </div>
+                <div>
+                    <label for="" >Notes</label>
+                    <input type="text" name="" id="" class="border-1 rounded w-full min-h-[80px] mt-2 border-[rgb(178,178,252)]">
+                </div>
+                <div
+                    class="bg-[rgb(104,101,234)] hover:bg-[rgb(52,49,221)] text-white text-center font-semibold py-2 rounded cursor-pointer">
+                    <button class="cursor-pointer w-full">SEND</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
